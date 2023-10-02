@@ -65,3 +65,21 @@ select {
   line-height: 36px;
   vertical-align: middle;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .date {
+    font-size: 14px;
+  }
+
+  .time {
+    font-size: 20px;
+  }
+}
